@@ -1,0 +1,1 @@
+This directory is for learning MONGODB in Python
