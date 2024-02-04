@@ -1,1 +1,1 @@
-This directory is for holberton web back end tasks.
+✅ This repo contains projects about backend administration, backend techniques how users sessions, users authentication and SQL and NoSQL databases using 🐍Python, 🤖JavaScript, 🐬MySQL, 🍃MongoDB.
