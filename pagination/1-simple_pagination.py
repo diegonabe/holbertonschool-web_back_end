@@ -5,9 +5,7 @@ from typing import Tuple, List
 import csv
 import math
 
-
 index_range = __import__("0-simple_helper_function").index_range
-
 
 class Server:
     """Server class to paginate a database of popular baby names.
@@ -27,7 +25,7 @@ class Server:
             self.__dataset = dataset[1:]
 
         return self.__dataset
-    
+
     def index_range(page: int, page_size: int) -> Tuple[int, int]:
         """ Devuelve el inicio y el final de index
         correspondiendo al rango de de index's """
@@ -45,6 +43,6 @@ class Server:
 
         if start >= len(self.dataset()):
             return res_list
+
         res_list = self.dataset()
         return res_list[start:end]
-    
