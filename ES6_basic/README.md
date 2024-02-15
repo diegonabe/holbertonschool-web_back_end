@@ -1,0 +1,1 @@
+This directoy is for learning ES6 Basics with Javascript.
